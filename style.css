@@ -21,15 +21,16 @@ body {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  background-color: teal;
 }
-
+/* HEADER */
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(0, 0%, 99%);
 }
-
+/* PASSWORD GENERATOR CARD */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -74,7 +75,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(21, 85, 53);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -97,7 +98,7 @@ button[disabled] {
   float: right;
 }
 
-#password {
+#result {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -118,6 +119,13 @@ button[disabled] {
   overflow: hidden;
 }
 
+.setting {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0;
+}
+
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
@@ -125,7 +133,7 @@ button[disabled] {
     padding: 10px 15px;
   }
 
-  #password {
+  #result {
     font-size: 1rem;
   }
 }

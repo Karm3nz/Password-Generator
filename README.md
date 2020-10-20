@@ -1,6 +1,13 @@
 # Password Generator
 
 ## Description 
+Do you lack the creativity, time, and energy to create a password? Have no fear the password generator is here!
+
+The making of this password generator is exactly as it sounds, to create a unique password. It is a password generator that allows the user to customize their password to include/exclude different types of character, as well as adjust the length of the passwords suited to their needs. 
+
+From this project, I've learned that it is time well-spent looking at various related projects from other people to help out with understanding the codes better. It also helps to tinker, try, and test out different possibilities to see if algorithms will work. 
+
+This password generator notably utilizes the Unicode character code, math floor function, and math random function to shuffle chracters. 
 
 
 The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
@@ -24,40 +31,34 @@ If you need an example of a good README, check out [the VSCode repository](https
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
+1) Make sure to have properly functioning computer.
+2) Check if an internet browswer is installed. If so, go to step 4).
+3) Install an internet browser of your choice. 
+4) Open up internet web browser.
+5) In the address bar, type in : https://karm3nz.github.io/Password-Generator/ and hit "enter" on the keyboard.
 
 ## Usage 
 
 Provide instructions and examples for use. Include screenshots as needed. 
 
+To arrive at the Password Generator web page, type in : https://karm3nz.github.io/Password-Generator/ on the address bar on the web browser and hit the "enter" key.
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+### Links to Tutorials/References Reffered to on Project:
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Video Tutorials for Password Generators:
+https://www.youtube.com/watch?v=duNmhKgtcsI&t=884s
+https://www.youtube.com/watch?v=iKo9pDKKHnc&t=1426s
 
-If you followed tutorials, include links to those here as well.
+Methods of Sorting Array:
+https://www.w3schools.com/js/js_array_sort.asp
 
+Object.keys()
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
 
 
 ## License
 
 The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
 
-
----
-
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
